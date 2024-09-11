@@ -1,0 +1,71 @@
+### Java ###
+*.class
+*.log
+*.ctxt
+
+### Maven ###
+target/
+**/target/
+
+### Gradle ###
+.gradle/
+build/
+**/build/
+
+### Spring Boot ###
+!src/main/**/static/
+!src/main/**/public/
+!src/main/**/resources/
+!src/main/**/templates/
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+### Eclipse ###
+.project
+.classpath
+.settings/
+.factorypath
+
+### VS Code ###
+.vscode/
+.history/
+
+### NetBeans ###
+nbproject/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+### Logs ###
+logs/
+*.log
+*.log.*
+
+### OS Files ###
+.DS_Store
+Thumbs.db
+
+### Caches ###
+.cache/
+tmp/
+temp/
+*.swp
+*.swo
+
+### Java wrappers ###
+*.jar
+*.war
+*.ear
+
+### Node (if you have UI code) ###
+node_modules/
+npm-debug.log
+yarn-error.log
+
